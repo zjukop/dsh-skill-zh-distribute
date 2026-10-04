@@ -1,0 +1,47 @@
+{
+  "name": "dsh-skill-zh-distribute",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness skill — adapt one piece of source content (母本) into platform-native posts for 掘金/微信公众号/X/小红书/B站 and schedule them on a staggered, anti-spam-friendly cadence. Pure methodology + per-platform dossiers, zero runtime code; honest that auto-posting is blocked on most CN surfaces, so the real zero-cost path is AI copy + manual paste.",
+  "license": "MIT",
+  "author": "zjukop",
+  "homepage": "https://github.com/zjukop/dsh-skill-zh-distribute",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zjukop/dsh-skill-zh-distribute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zjukop/dsh-skill-zh-distribute/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-skill",
+    "dsh",
+    "skill",
+    "distribution",
+    "publishing",
+    "content",
+    "multi-platform",
+    "juejin",
+    "wechat",
+    "xiaohongshu",
+    "bilibili",
+    "chinese"
+  ],
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "bin/install.js"
+  ],
+  "bin": {
+    "dsh-skill-zh-distribute": "bin/install.js"
+  },
+  "dsh": {
+    "kind": "skill",
+    "skill": "SKILL.md",
+    "name": "zh-distribute"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
